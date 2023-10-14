@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@700&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Rubik:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+body {
+  background-color: #003147;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgpa(0, 0, 0, 0.1);
+}
+.container .left_side {
+  position: relative;
+  background-color: #d3d3d3;
+  padding: 40px;
+  align-items: center;
+}
+.container .right_side {
+  position: relative;
+  background-color: #fff;
+  padding: 40px;
+}
+.profile_img {
+  align-items: center;
+  border-radius: 300px;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.skill_details,
+.contact_details,
+.educational_details {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #000;
+  border-radius: 20px;
+  align-items: center;
+  padding: 5px;
+}
+
+.ed1,
+.ed2,
+.ed3 {
+  list-style: none;
+}
+
+.my_name {
+  font-size: 30px;
+  font-weight: 100;
+  align-items: center;
+}
+
+.my_name span,
+.exp,
+.lang,
+.Ssk {
+  font-size: 30px;
+  font-style: bold;
+}
+.lang_details li,
+.softskills_details li {
+  margin-bottom: 10px;
+  list-style: none;
+}
